@@ -26,9 +26,13 @@
                 <div class="table-responsive">
                     <table class="table table-hover text-center">
                         <thead class="thead-light">
+                            <form action="{{url('cari')}}" method="GET">
+                                <input type="text" name="cari" placeholder="Cari Kelas" value="{{ old('cari') }}">
+                                <input type="submit" value="CARI">
+                            </form>
                             <tr>
                                 <td>No</td>
-                                <td>Nama Kelas</td>
+                                <td>@sortablelink('nama_kelas')</td>
                                 <td>Opsi</td>
                             </tr>
                         </thead>
@@ -56,6 +60,7 @@
                             @endforelse
                         </tbody>
                     </table>
+                    {{$kelas->links()}}
                 </div>
             </div>
         </div>

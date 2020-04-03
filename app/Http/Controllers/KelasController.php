@@ -9,7 +9,7 @@ use App\Kelas;
 class KelasController extends Controller
 {
     public function index(){
-        $kelas = Kelas::all();
+        $kelas = Kelas::sortable()->paginate(5);
         return view('pages.kelas.index', compact('kelas'));
     }
 
@@ -50,5 +50,15 @@ class KelasController extends Controller
 
         return redirect()->route('kelas.index');
     }
+
+    public function cari(Request $request){
+        $cari = $request->cari;
+
+        // $kelas = DB::table('kelas')->where('nama_kelas','like',"%".$cari."%")->paginate(5);
+        $kelas = Kelas::where('nama_kelas','like',"%".$cari."%")->paginate(5);
+
+        return view('pages.kelas.index',['kelas' => $kelas]);
+    }
+
 
 }

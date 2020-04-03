@@ -114,6 +114,10 @@ class ComposerStaticInit6de14761f4b7b067b9d74658e6f50067
             'Laravel\\Ui\\' => 11,
             'Laravel\\Tinker\\' => 15,
         ),
+        'K' => 
+        array (
+            'Kyslik\\ColumnSortable\\' => 22,
+        ),
         'J' => 
         array (
             'JakubOnderka\\PhpConsoleHighlighter\\' => 35,
@@ -357,6 +361,10 @@ class ComposerStaticInit6de14761f4b7b067b9d74658e6f50067
         'Laravel\\Tinker\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
+        ),
+        'Kyslik\\ColumnSortable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kyslik/column-sortable/src/ColumnSortable',
         ),
         'JakubOnderka\\PhpConsoleHighlighter\\' => 
         array (
@@ -2299,6 +2307,10 @@ class ComposerStaticInit6de14761f4b7b067b9d74658e6f50067
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/Highlighter.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'Kyslik\\ColumnSortable\\ColumnSortableServiceProvider' => __DIR__ . '/..' . '/kyslik/column-sortable/src/ColumnSortable/ColumnSortableServiceProvider.php',
+        'Kyslik\\ColumnSortable\\Exceptions\\ColumnSortableException' => __DIR__ . '/..' . '/kyslik/column-sortable/src/ColumnSortable/Exceptions/ColumnSortableException.php',
+        'Kyslik\\ColumnSortable\\Sortable' => __DIR__ . '/..' . '/kyslik/column-sortable/src/ColumnSortable/Sortable.php',
+        'Kyslik\\ColumnSortable\\SortableLink' => __DIR__ . '/..' . '/kyslik/column-sortable/src/ColumnSortable/SortableLink.php',
         'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
