@@ -16,16 +16,10 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                    <a href="{{route('mahasiswa.index')}}" class=" waves-effect">
                         <i class="bx bxs-user-pin"></i>
                         <span>Mahasiswa</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                        <li><a href="layouts-light-sidebar.html">Light Sidebar</a></li>
-                        <li><a href="layouts-compact-sidebar.html">Compact Sidebar</a></li>
-                        <li><a href="layouts-icon-sidebar.html">Icon Sidebar</a></li>
-                    </ul>
                 </li>
                 
                 <li>
